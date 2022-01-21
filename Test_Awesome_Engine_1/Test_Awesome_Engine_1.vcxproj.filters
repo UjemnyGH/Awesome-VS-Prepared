@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\EngineFiles">
+      <UniqueIdentifier>{ca978c66-aa12-4cee-bec4-697ee2483c61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EngineFilesCpp">
+      <UniqueIdentifier>{4c2bc18d-b5d7-4336-bc37-96df273f62c6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Win32Template.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui.cpp">
+      <Filter>Source Files\EngineFilesCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_demo.cpp">
+      <Filter>Source Files\EngineFilesCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_draw.cpp">
+      <Filter>Source Files\EngineFilesCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_impl_glfw.cpp">
+      <Filter>Source Files\EngineFilesCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source Files\EngineFilesCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_tables.cpp">
+      <Filter>Source Files\EngineFilesCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\imgui\imgui_widgets.cpp">
+      <Filter>Source Files\EngineFilesCpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stb_image_implementation.cpp">
+      <Filter>Source Files\EngineFilesCpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Buffers\Aws_Buffer.hpp">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera\Aws_Camera.hpp">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Cube\Aws_Cube.hpp">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Aws_Engine.hpp">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MeshCollider\Aws_MeshCollider.hpp">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MeshLoader\Aws_MeshLoader.hpp">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Object\Aws_Object.hpp">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Raycast\Aws_Raycast.hpp">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SceneLoader\Aws_SceneLoader.hpp">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Square\Aws_Square.hpp">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Text\Aws_Text.hpp">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Time\Aws_Time.hpp">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Aws_Types.hpp">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\UI\Aws_UI.hpp">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Window\Aws_Window.hpp">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\dr_libs\dr_wav.h">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imconfig.h">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui.h">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_glfw.h">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_opengl3.h">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imgui_internal.h">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_rectpack.h">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_textedit.h">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\imgui\imstb_truetype.h">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MeshLoader\Obj_Wavefront_Loader.hpp">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_easy_font.h">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_image.h">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stb_image\stb_truetype.h">
+      <Filter>Header Files\EngineFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Template.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
